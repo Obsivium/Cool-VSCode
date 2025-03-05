@@ -54,7 +54,7 @@
   // Sets the window title
   "window.title": "${dirty}${activeEditorShort}",
   // Sets icon theme
-  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.iconTheme": "vscode-material-theme-icons-default",
   // Disable indent guides
   "workbench.tree.renderIndentGuides": "none",
   // Icon theme for the window icons and autocomplete suggestions
@@ -65,13 +65,21 @@
   "workbench.editor.tabCloseButton": "off",
   // Set syntax theme
   "workbench.colorTheme": "One Dark Ocean Theme",
+  // Hide the close action button in editor tabs
   "workbench.editor.tabActionCloseVisibility": false,
+  // Disable the command center (command palette in title bar)
   "window.commandCenter": false,
+  // Disable the layout controls in the top right
   "workbench.layoutControl.enabled": false,
+  // Position the activity bar at the bottom of the window
   "workbench.activityBar.location": "bottom",
+  // Position the sidebar on the right side of the window
   "workbench.sideBar.location": "right",
+  // Automatically open untrusted files without prompting
   "security.workspace.trust.untrustedFiles": "open",
+  // Enable automatic tag/bracket renaming
   "editor.linkedEditing": true,
+  // Configuration for Codeium AI assistant
   "codeium.enableConfig": {
       "*": true,
       "markdown": true

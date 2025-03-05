@@ -29,11 +29,13 @@ Install the following essential extensions:
 |-----------|---------|
 | [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) | AI code completion |
 | [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) | Automated HTML/XML tag renaming |
-| [Cline](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev) | Claude AI assistant |
+| [Cline](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev) | Cursor-like AI assistant |
 | [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | AI pair programming |
 | [Github Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) | Interactive AI chat |
 | [One Dark Ocean Theme](https://marketplace.visualstudio.com/items?itemName=leonamlvs.vscode-theme-onedarkocean) | Modern dark theme |
 | [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) | CSV file visualization |
+| [Material Product Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-product-icons) | Icon theme |
+| [Material Theme Icons](https://marketplace.visualstudio.com/items?itemName=kd3n1z.vscode-material-theme-icons) | Icon theme |
 
 ### Configuration Setup
 1. Open VS Code settings.json file
