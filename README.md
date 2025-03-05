@@ -1,40 +1,74 @@
-# ![](https://github.com/anantnrg/Elegant-VS-Code/blob/main/screenshots/after_no_term.png?raw=true)
-<h1 style="text-align: center">Elegant Visual Studio Code</h1>
-<p style="text-align:center; font-weight: semibold">A step-by-step guide to make your VS Code workflow more minimal, elegant and efficient, trust me, this works :)</p>
+# Cool VSCode
 
 
-## What's this ?
-This is a complete step-by-step guide to convert to VS Code from this:
-![](https://github.com/anantnrg/Elegant-VS-Code/blob/main/screenshots/before.png?raw=true)
+[![License](https://img.shields.io/badge/License-Unlicense-green)](LICENSE)
 
-to this:
+A professional Visual Studio Code setup focused on enhancing productivity and developer experience. Based on [Elegant-VS-Code](https://github.com/anantnrg/Elegant-VS-Code) with additional customizations.
 
-![](https://github.com/anantnrg/Elegant-VS-Code/blob/main/screenshots/after_no_term.png?raw=true)
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+  - [Required Extensions](#required-extensions)
+  - [Configuration Setup](#configuration-setup)
+- [AI Assistant Setup](#ai-assistant-setup)
+- [Additional Notes](#additional-notes)
 
-# Getting Started
-## Prerequisites
-JetBrains Mono - this is the font I use and its pretty good. You can use any **monospace** font you want. If you want to get JetBrains Mono, you can get it from [here](https://www.jetbrains.com/lp/mono/)
+## Features
+- 🎨 Modern dark theme optimized for long coding sessions
+- 🤖 Multiple AI assistants integration (Copilot, Codeium, Cline)
+- 🔄 Smart tag handling for HTML/XML
+- 📊 Enhanced CSV file visualization
+- ⚡ Optimized performance and workflow
 
-Community Material Theme - You can install this from the VS Code Extensions Panel
-Material Product Icons - You can install this from the VS Code Extensions Panel
+## Installation
 
-## Installation :wrench:
-If you want to just make your VS Code look like mine, then you just copy the contents of the `settings.json` file in the root of this repository, to your VS Code's config. To access your `settings.json`, press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>. Then type `settings json` in the box and select **Preferences: Open User Settings (JSON)** and then just <kbd>Ctrl</kbd> + <kbd>A</kbd> and <kbd>Ctrl</kbd> + <kbd>V</kbd>. I have added explanations for all the settings so you can modify it to your liking
+### Required Extensions
+Install the following essential extensions:
 
-## Themes :art:
-I often find myself switching around different themes. So here are my recommendations for themes to use with this config. Feel free to switch around :)
+| Extension | Purpose |
+|-----------|---------|
+| [Codeium](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) | AI code completion |
+| [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) | Automated HTML/XML tag renaming |
+| [Cline](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev) | Claude AI assistant |
+| [Github Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) | AI pair programming |
+| [Github Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat) | Interactive AI chat |
+| [One Dark Ocean Theme](https://marketplace.visualstudio.com/items?itemName=leonamlvs.vscode-theme-onedarkocean) | Modern dark theme |
+| [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv) | CSV file visualization |
 
-- Community Material Ocean
-- Community Material Palenight
-- Tokyo Night NV
-- One Dark Pro
-- Nord
+### Configuration Setup
+1. Open VS Code settings.json file
+2. Copy the contents from the settings.json in this repository
+3. Paste into your settings.json
+4. Restart VS Code if prompted
 
-# Screenshots
-![](https://github.com/anantnrg/Elegant-VS-Code/blob/main/screenshots/after_no_term.png?raw=true)
+## AI Assistant Setup
 
+### Codeium
+1. Install the extension
+2. Follow the login prompt that appears automatically
 
-![](https://github.com/anantnrg/Elegant-VS-Code/blob/main/screenshots/after_all.png?raw=true)
+### GitHub Copilot
+1. Click the Copilot icon in the top right corner
+2. Log in with your GitHub account
+3. Wait for the initialization to complete
 
+### Cline
+1. Open the Cline sidebar (robot icon)
+2. Navigate to Cline settings
+3. Set API Provider to: VS Code LM API
 
-![](https://github.com/anantnrg/Elegant-VS-Code/blob/main/screenshots/after_only_code.png?raw=true)
+#### Using Claude 3.5 Sonnet
+To use Claude 3.5 Sonnet with Cline:
+1. Press `Ctrl + Shift + P` (or `Cmd + Shift + P` on macOS)
+2. Type and select "Chat: Open Chat in Side bar"
+3. Select "claude-3.5-sonnet" from the model dropdown
+4. Write a test message and accept the prompt
+5. Return to Cline settings and select "claude-3.5-sonnet" from Language Model dropdown
+
+## Additional Notes
+- Language-specific extensions (Python, C++, Java, etc.) should be installed separately based on your development needs
+- This setup is regularly maintained and updated
+- For any issues, please check the respective extension documentation or raise an issue in this repository
+
+---
+*Happy Coding! 🚀*

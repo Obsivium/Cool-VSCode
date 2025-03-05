@@ -12,7 +12,7 @@
   // Disables code folding
   "editor.folding": false,
   // Do not highlight word occurences
-  "editor.occurrencesHighlight": false,
+  "editor.occurrencesHighlight": "off",
   // Don't match brackets
   "editor.matchBrackets": "never",
   // Disable glyph margin
@@ -22,17 +22,17 @@
   // Disable icons in the tabs
   "workbench.editor.showIcons": false,
   // Hide statusbar
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   // Color for Indenticator(for indentation level)
   "indenticator.color.dark": "rgba(255,255,255,.1)",
-  "workbench.colorCustomizations": { 
-    // Tab active border
+  "workbench.colorCustomizations": {
+      // Tab active border
       "tab.activeBorder": "#0000"
   },
   // Set font family. You can use your custom font, for example 'Fira Code'
   "editor.fontFamily": "'JetBrains Mono Regular', 'Courier New', monospace",
   // Set font size
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   // Enable font ligatures
   "editor.fontLigatures": true,
   // Enable the cool cursive like font variations
@@ -51,11 +51,7 @@
   "editor.guides.bracketPairs": false,
   // Disbles breadcrumbs. Please, do not enable them, for the love of god, please
   "breadcrumbs.enabled": false,
-  // Hides the ugly menu bar
-  "window.menuBarVisibility": "hidden", 
-  // Don't know what this does, lol
-  "workbench.layoutControl.enabled": false,
-  // Sets the window title 
+  // Sets the window title
   "window.title": "${dirty}${activeEditorShort}",
   // Sets icon theme
   "workbench.iconTheme": "eq-material-theme-icons",
@@ -63,12 +59,21 @@
   "workbench.tree.renderIndentGuides": "none",
   // Icon theme for the window icons and autocomplete suggestions
   "workbench.productIconTheme": "material-product-icons",
-  // Enables smooth scrolling, a must have 
+  // Enables smooth scrolling, a must have
   "editor.smoothScrolling": true,
   // Disables the close button on tabs, you can enable if you want
   "workbench.editor.tabCloseButton": "off",
-  // Disables the activity bar which allows you to switch between Explorer, Extensions, GitLens etc
-  "workbench.activityBar.visible": false,
   // Set syntax theme
-  "workbench.colorTheme": "Community Material Theme Ocean"
+  "workbench.colorTheme": "One Dark Ocean Theme",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.activityBar.location": "bottom",
+  "workbench.sideBar.location": "right",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.linkedEditing": true,
+  "codeium.enableConfig": {
+      "*": true,
+      "markdown": true
+  }
 }
