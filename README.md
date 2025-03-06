@@ -38,10 +38,11 @@ Install the following essential extensions:
 | [Material Theme Icons](https://marketplace.visualstudio.com/items?itemName=kd3n1z.vscode-material-theme-icons) | Icon theme |
 
 ### Configuration Setup
-1. Open VS Code settings.json file
-2. Copy the contents from the settings.json in this repository
-3. Paste into your settings.json
-4. Restart VS Code if prompted
+1. Install [JetBrains Mono](https://www.jetbrains.com/lp/mono/) font
+2. Open VS Code settings.json file
+3. Copy the contents from the settings.json in this repository
+4. Paste into your settings.json
+5. Restart VS Code if prompted
 
 ## AI Assistant Setup
 
